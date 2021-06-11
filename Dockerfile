@@ -18,5 +18,5 @@ COPY . .
 # If you are building your code for production
 # RUN npm ci --only=production
 
-EXPOSE 9012
+#EXPOSE 9012
 CMD [ "node", "./bin/www" ]
